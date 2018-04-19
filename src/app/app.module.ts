@@ -13,6 +13,8 @@ import { FooterComponent } from './footer/footer.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AppRouterModule } from './/router.module';
 import { BooksService } from './books/books.service';
+import { RooooooModule } from './/roooooo.module';
+import { RxxxxxxModule } from './rxxxxxx/rxxxxxx.module';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { BooksService } from './books/books.service';
     BrowserModule,
     FormsModule,
     AppRouterModule,
-    HttpClientModule
+    HttpClientModule,
+    RooooooModule,
+    RxxxxxxModule
   ],
   providers: [BooksService],
   bootstrap: [AppComponent]

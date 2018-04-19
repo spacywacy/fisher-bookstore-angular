@@ -10,7 +10,10 @@ export class BookDetailComponent implements OnInit {
 
   @Input() book: IBook;
 
+  
+
   constructor() { }
+  t = 'aaa';
 
   ngOnInit() {
   }
